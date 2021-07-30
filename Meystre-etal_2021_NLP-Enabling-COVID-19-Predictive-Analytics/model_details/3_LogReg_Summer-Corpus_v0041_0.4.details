@@ -1,0 +1,76 @@
+Trained features (n = 28):
+
+	- chills
+	- cough
+	- dyspnea
+	- fever
+	- headache
+	- myalgia
+	- nasal_congestion
+	- recent_travel
+	- tobacco_user
+	- sore_throat
+	- suspected_case_contact
+	- anosmia
+	- diarrhea
+	- exanthema
+	- nausea
+	- sneezing
+	- vomiting
+	- pregnant
+	- rhinorrhea
+	- healthcare_worker
+	- confirmed_case_contact
+	- fatigue
+	- arthralgia
+	- anorexia
+	- itchy_eyes
+	- night_sweats
+	- psychataxia
+	- pleurodynia
+
+Parameters:
+
+LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+          intercept_scaling=1, max_iter=1000, multi_class='warn',
+          n_jobs=None, penalty='l2', random_state=None, solver='liblinear',
+          tol=0.0001, verbose=0, warm_start=False)
+
+classes_:
+
+[0 1]
+
+intercept_:
+
+[-1.21431509]
+
+Coefficients:
+
+	0.3050045695966115	chills
+	0.6468517090598442	cough
+	0.005426695060539213	dyspnea
+	0.22522693856097026	fever
+	0.0061659731088178765	headache
+	0.2699989916366485	myalgia
+	0.31280955546843625	nasal_congestion
+	-0.37068187620262966	recent_travel
+	-0.4183417799179608	tobacco_user
+	-1.2724629317239728	sore_throat
+	0.2931209828966537	suspected_case_contact
+	1.278648798485594	anosmia
+	-0.34067536051631087	diarrhea
+	0.7226111089275848	exanthema
+	-0.5204048662953302	nausea
+	-0.238423750790037	sneezing
+	-0.5963208037748051	vomiting
+	0.16336667319643783	pregnant
+	-0.003380933467158184	rhinorrhea
+	0.6828622957035619	healthcare_worker
+	-0.4397950776119575	confirmed_case_contact
+	0.1023497620374884	fatigue
+	0.1478212537690974	arthralgia
+	0.3102767881348493	anorexia
+	-0.5234453079413048	itchy_eyes
+	-0.36919019502492273	night_sweats
+	-0.08651663793676576	psychataxia
+	-0.5353468723622465	pleurodynia

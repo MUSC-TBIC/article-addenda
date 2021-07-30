@@ -29,13 +29,15 @@ The full set of features, intercept, and weights is provided for all
 logistic regression models in the `model_details` folder. Simpler
 descriptive details are provided for the SVM models.
 
+The provided Python script `print_model_details.py` can be used to
+print the same model details.
+
 Model Name Mappings
 ===================
 
 The table below indicates the mapping from model names used in Table 4
 to our original (internal) model naming schema.
 
-|-------------------------------------------------------------------------------|---------------|
 | “Spring” dataset training (10% negatives; all features)                       | Original Name |
 |-------------------------------------------------------------------------------|---------------|
 | Logistic Regression                                                           | v0020         |
@@ -49,5 +51,5 @@ to our original (internal) model naming schema.
 | “Spring+Summer” dataset training (positives subset to reach 5%, top features) |               |
 |-------------------------------------------------------------------------------|---------------|
 | Logistic Regression                                                           | v0406_0.05    |
-|-------------------------------------------------------------------------------|---------------|
+
 

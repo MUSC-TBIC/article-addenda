@@ -1,0 +1,46 @@
+Trained features (n = 28):
+
+	- chills
+	- cough
+	- dyspnea
+	- fever
+	- headache
+	- myalgia
+	- nasal_congestion
+	- recent_travel
+	- tobacco_user
+	- sore_throat
+	- suspected_case_contact
+	- anosmia
+	- diarrhea
+	- exanthema
+	- nausea
+	- sneezing
+	- vomiting
+	- pregnant
+	- rhinorrhea
+	- healthcare_worker
+	- confirmed_case_contact
+	- fatigue
+	- arthralgia
+	- anorexia
+	- itchy_eyes
+	- night_sweats
+	- psychataxia
+	- pleurodynia
+
+Parameters:
+
+SVC(C=1.0, cache_size=200, class_weight={0: 1, 1: 1}, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto_deprecated',
+  kernel='rbf', max_iter=-1, probability=True, random_state=0,
+  shrinking=True, tol=0.001, verbose=False)
+
+classes_:
+
+[0 1]
+
+intercept_:
+
+[-0.40203401]
+

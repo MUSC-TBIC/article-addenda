@@ -1,0 +1,41 @@
+Trained features (n = 12):
+
+	- sore_throat
+	- cough
+	- anosmia
+	- exanthema
+	- myalgia
+	- fever
+	- healthcare_worker
+	- age
+	- confirmed_case_contact
+	- suspected_case_contact
+	- tobacco_user
+	- recent_travel
+
+Parameters:
+
+LogisticRegression(max_iter=1000, solver='liblinear')
+
+classes_:
+
+[0 1]
+
+intercept_:
+
+[-3.0005919]
+
+Coefficients:
+
+	-1.0178244838319972	sore_throat
+	-0.9218908805778496	cough
+	-1.0608765368227817	anosmia
+	-0.10214074448208203	exanthema
+	0.18879361971372946	myalgia
+	0.7628128254853992	fever
+	1.772755110098584	healthcare_worker
+	-0.5226588726912148	age
+	0.03909662080334929	confirmed_case_contact
+	-1.036928487623345	suspected_case_contact
+	0.9858362386107496	tobacco_user
+	1.6343114663434308	recent_travel

@@ -1,0 +1,54 @@
+---
+title: "Model v21 (tbic-dev3) Evaluation"
+author: "Alexander V. Alekseyenko (Adapted by Paul M. Heider)"
+date: "`r date()`"
+output: 
+  html_document: 
+    fig_caption: yes
+    number_sections: yes
+    toc: yes
+    toc_depth: 3
+    toc_float: true
+    df_print: paged
+---
+
+Run-specific parameters
+```{r, Loading Parameters}
+summer_filename <- "summer_batch_test_v0021_2021-05-27_dev3.tsv"
+weekly_filename <- "weekly_batch_test_v0021_2021-05-26_dev3.tsv"
+prodThreshold <- 0.176
+maxRepls <- 50
+dataPrefix <- "../data_final/v0021"
+```
+
+```{r child = 'evaluate_models_1-front-matter.Rmd', "Front Matter"}
+```
+
+```{r child = 'evaluate_models_2-data-summary.Rmd', "Data Summary"}
+```
+
+```{r child = 'evaluate_models_2b-test-data-summary.Rmd', "Data Summary"}
+```
+
+# Run simulation on training data
+
+This is the slow step larger number of replicates will produce more stable estimates of the number of tests needed.
+```{r, Run Simulation}
+date()
+trainingPerformance =
+  evaluate_predictor_range( training_data$SysPred,
+                            training_data$positive,
+                            replicates = maxRepls , 
+                            thgrid = NULL) 
+date()
+```
+
+```{r child = 'evaluate_models_3a-train-performance.Rmd', "Train Performance Eval"}
+```
+
+```{r child = 'evaluate_models_3b-test-performance.Rmd', "Train Performance Eval"}
+```
+
+```{r child = 'evaluate_models_4-save-data.Rmd', "Train Performance Eval"}
+```
+
