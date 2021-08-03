@@ -1,4 +1,7 @@
 
+This directory contains RMarkdown files, model details, and sample
+data related to and in support of the following publication:
+
 Natural Language Processing Enabling COVID-19 Predictive Analytics to
 Support Data-Driven Patient Advising and Pooled Testing
 
@@ -10,12 +13,26 @@ Medical University of South Carolina, Charleston, SC
 
 [full citation forthcoming]
 
+Work for this publication used data extracted by
+[DECOVRI](https://github.com/MUSC-TBIC/decovri) (Data Extraction for
+COVID-19 Related Information), a software application based on natural
+language processing (NLP) which targets COVID-19 related information
+in clinical text notes.
+
 RMarkdown Code
 ==============
 
+To enable more efficient SARS-CoV-2 diagnostic testing based on
+pooling, these R markdown files implement a new straight-forward Monte
+Carlo approximation that provides reasonable and practical estimates
+of the number of SARS-CoV-2 diagnostic tests required based on
+predicted risk values. The simulation directly calculates the number
+of resulting test pools that are positive and the total number of
+tests needed. 
+
 The `.html` version of all RMarkdown files are presented in their
 original format. The source RMarkdown files for these are available in
-the `RMarkdown` folder. 
+the `RMarkdown` folder.
 
 Spoofed data has been provided in the `sample_data` directory. Due to
 patient privacy concerns, the provided values were generated using
