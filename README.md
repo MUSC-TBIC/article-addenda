@@ -8,6 +8,24 @@ addenda are listed in our branch
 for a modicum of impartiality/reviewer blindness. Click through the
 link to see these listings.
 
+Chen-etal_Submitted_Clinical-Section-Headings-Usings-Ensembles
+--------------------------------------------------------------
+
+Identification of Clinical Section Headings Using a Voting Ensemble
+Method
+
+Kexin Chen, MPH, Ronak Pipaliya, BS, Paul M. Heider, PhD, Stephane
+M. Meystre, MD, PhD
+
+Heider-etal_Submitted_Study-of-Multi-Classifier-Ensemble-Methods
+----------------------------------------------------------------
+
+A Study of Multi-Classifier Ensemble Methods for Concept Recognition,
+Normalization, and Context Attributes
+
+Paul M. Heider, PhD, Kexin Chen, MPH, Ronak Pipaliya, BS, Stephane
+M. Meystre, MD, PhD
+
 Meystre-etal_2021_NLP-Enabling-COVID-19-Predictive-Analytics
 ============================================================
 
