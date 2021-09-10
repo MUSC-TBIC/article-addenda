@@ -4,7 +4,7 @@ Submitted/Under Review
 
 Writings submitted and/or under review that benefit from published
 addenda are listed in our branch
-`(under-review)[https://github.com/MUSC-TBIC/article-addenda/tree/under-review]`
+"(under-review)[https://github.com/MUSC-TBIC/article-addenda/tree/under-review]"
 for a modicum of impartiality/reviewer blindness. Click through the
 link to see these listings.
 
