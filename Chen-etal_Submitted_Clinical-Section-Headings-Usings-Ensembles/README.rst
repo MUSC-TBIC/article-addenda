@@ -18,14 +18,22 @@ the clinical sectionizer repository.
 Corpora
 =======
 
-Primary corpus [1]_[2]_
------------------------
+Primary corpus
+--------------
+
+The primary corpus is an augmentation on top of the i2b2 2014 corpus
+including section headers. [1]_[2]_
 
 - 1304 [3]_ notes
+  
   - 790 [3]_ in train split (60%)
+
   - 514 in test split (40%)
+
 - 13133 section headers
+
   - 7981 in train split (61%)
+
   - 5152 in test split (39%)
 
 .. [3] Listed as 1299 and 785, respectively, in the original abstract
@@ -34,7 +42,9 @@ Additional corpus
 -----------------
 
 - 86 notes
+  
   - 100% used for testing
+    
 - 2920 section headers
 
 Results
