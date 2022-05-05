@@ -7,33 +7,12 @@ Related repositories:
     
   - Additional `ETUDE engine configs <https://github.com/MUSC-TBIC/etude-engine-configs>`_
   
-Corrections
-===========
-
-We describe the `term_exists` field in the OMOP CDM as the best map
-for the polarity flag. Upon further review, that analysis should be
-considered a simplification.  The full description of `term_exists`
-indicates it should be used to encode a composite picture of most of
-the contextual attribute values indicating whether this should be a
-current (pressing) concern:
-
-    "Term_exists is defined as a flag that indicates if the patient
-    actually has or had the condition. Any of the following modifiers
-    would make Term_exists false: Negation = true Subject = [anything
-    other than the patient] Conditional = true/li> Rule_out = true
-    Uncertain = very low certainty or any lower certainties A complete
-    lack of modifiers would make Term_exists true."
-
-    -- `NOTE_NLP Table Definition <https://ohdsi.github.io/CommonDataModel/cdm53.html#NOTE_NLP>`_
-
-In future updates to this work, we will indicate the polarity in the
-`term_modifiers` field just as we did `uncertainty`.
-
 Scripts
 =======
 
-Each corpus has a set of scripts that need to be customized to your
-local directory structure.
+Each corpus has a set of scripts found in the `ots-ensemble-systems`
+repository that need to be customized to your local directory
+structure.
 
 The first script is called `prep-X.sh` and converts the corpus from
 its source format into a standard format usable by the rest of the
@@ -90,3 +69,8 @@ of the script will need to be adjusted. For instance, the path
 evaluation data to. The `data-final` folder contains all the
 consolidated data used in plotting. The `figures` folder contains all
 output figures. Both of these directories will need to be created.
+
+Plotting Results
+================
+
+(*Forthcoming*)
