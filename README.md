@@ -17,6 +17,14 @@ Headings
 Kexin Chen, MPH, Ronak M. Pipaliya, BS, Paul M. Heider, PhD, Stephane
 M. Meystre, MD, PhD
 
+Heider-etal_Submitted_Ensembling-SDoH-Extractors
+--------------------------------------------------------
+
+Extracting Social Determinants of Health from Clinical Text with a
+Post-Hoc Ensemble of Off-the-shelf Models
+
+Paul M. Heider, PhD, Kexin Chen, MPH, BS, Jihad S. Obeid, MD
+
 Heider-etal_Submitted_Significance-Tests-in-Clinical-NLP
 --------------------------------------------------------
 
