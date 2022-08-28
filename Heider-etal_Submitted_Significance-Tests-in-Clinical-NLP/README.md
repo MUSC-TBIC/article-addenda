@@ -36,3 +36,17 @@ bootstrapPower <- 10
 ## 2**20 = 1048576 =  4.9 hours
 
 ```
+
+This script generates an additional table not in the abstract
+including the probability that each of four reported metrics happened
+by chance.
+
+| Technique        | RecallProb | PrecisionProb | F1Prob | AccuracyProb |
+|------------------|-----------:|--------------:|-------:|-------------:|
+| Yeh              |     0.0010 |        0.0254 | 0.0176 |       0.0195 |
+| Berg-Kirkpatrick |     0.0010 |        0.0351 | 0.0088 |       0.0088 |
+
+In other words, 1.76 % of the samples generated using Yeh's algorithm
+and 0.88 % of those from Berg-Kirkpatrick's algorithm had differences
+in F1-measure more extreme than those observed.
+
