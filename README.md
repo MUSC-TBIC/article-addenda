@@ -8,15 +8,6 @@ addenda are listed in our branch
 for a modicum of impartiality/reviewer blindness. Click through the
 link to see these listings.
 
-Chen-etal_Submitted_Approaches-to-Recognize-Clinical-Section-Headings
----------------------------------------------------------------------
-
-Comparison of Different Approaches to Recognize Clinical Section
-Headings
-
-Kexin Chen, MPH, Ronak M. Pipaliya, BS, Paul M. Heider, PhD, Stephane
-M. Meystre, MD, PhD
-
 Heider-etal_Submitted_Ensembling-SDoH-Extractors
 --------------------------------------------------------
 
