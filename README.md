@@ -28,7 +28,8 @@ Paul M. Heider, PhD, Kexin Chen, MPH, BS, Jihad S. Obeid, MD
 Heider-etal_Submitted_Significance-Tests-in-Clinical-NLP
 --------------------------------------------------------
 
-Guidelines for Standardizing Significance Tests in Clinical NLP
+Significance Testing and Reporting are Critically Underutilized Tools
+for Clinical NLP
 
 Paul M. Heider, PhD, Glenn T. Gobbel, DVM, PhD, MS,
 Jihad S. Obeid, MD, Alexander V. Alekseyenko, PhD, FAMIA
