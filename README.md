@@ -8,8 +8,37 @@ addenda are listed in our branch
 for a modicum of impartiality/reviewer blindness. Click through the
 link to see these listings.
 
+Heider-etal_Submitted_Significance-Tests-in-Clinical-NLP
+--------------------------------------------------------
+
+Significance Testing and Reporting are Critically Underutilized Tools
+for Clinical NLP
+
+Paul M. Heider, PhD, Glenn T. Gobbel, DVM, PhD, MS,
+Jihad S. Obeid, MD, Alexander V. Alekseyenko, PhD, FAMIA
+
+Heider-etal_Submitted_Implicit-Bias-in-MIMIC-III
+------------------------------------------------
+
+Implicit Provider Bias as Assessed through Explicit Mentions of
+Pejorative and Laudative Terms in MIMIC-III
+
+Paul M. Heider, PhD, Jihad S. Obeid, MD, Leslie A. Lenert, MD
+
+Heider-etal_Submitted_Post-Hoc-Ensemble-Generation
+--------------------------------------------------
+
+Post-Hoc Ensemble Generation for Clinical NLP: A Study
+of Concept Recognition, Normalization, and Context Attributes
+
+Paul M. Heider, PhD, Kexin Chen, MPH, Ronak Pipaliya, BS, Stephane
+M. Meystre, MD, PhD
+
+2021
+====
+
 Meystre-etal_2021_NLP-Enabling-COVID-19-Predictive-Analytics
-============================================================
+------------------------------------------------------------
 
 Natural Language Processing Enabling COVID-19 Predictive Analytics to
 Support Data-Driven Patient Advising and Pooled Testing
